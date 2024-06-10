@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build -t yaro9728/node .
+  - docker images yaro9728/node
